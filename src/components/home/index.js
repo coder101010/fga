@@ -148,8 +148,6 @@ class Home extends Component {
         let map = new window.google.maps.Map(document.getElementById('map'), {
           center: {lat: parseInt(lat), lng: parseInt(lon)},
           zoom: 15,
-          minZoom : 3,
-          maxZoom : 10,
           mapTypeControl: false,
           zoomControl: true,
           scaleControl: false,
